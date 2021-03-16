@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+ }
+ 
+#img-fluid{
+width: 340px;
+height: 320px;
+border-radius: 50%; 
+margin-top: 120px;
+}
+
+#photo{
+  background-color: #cb997e;
+  position: relative;
+  height: 97vh;
+  align-items: center;
+}
+.div1{
+  /* background-color: #1ABC9C; */
+
+  position: absolute;
+  left: 39%;
+  
+}
+.div1 h1{
+  text-align: center;
+  color: white;
+}
+img{
+  border-radius: 50%;
+ 
+}
+
+#star{
+  font-size: 5rem;
+}
+figcaption{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#cardz
+{
+  display: flex;
+  margin-bottom: auto;
+  
+}
+
+svg{
+  color: white;
+  width:40px; 
+  height:40px;
+
+}
+
+#svg{
+  margin-top: 2px;
+  margin-left: 32%;
+}
+
+
+.card-img-top{
+  height: 300px;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+  #img-fluid{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+        }
+    
+    #photo{
+      background-color: #1ABC9C;
+      position: static;
+      height: 50vh;
+      width: 100vw;
+
+    }
+    .div1{
+      background-color: #1ABC9C;
+      position: absolute;
+      left: 7.9%;
+    }
+    .div1 h1{
+      font-size: xx-large;
+      color: white;
+    }
+    img{
+      border-radius: 50%;
+    }
+    #star{
+      font-size: 2rem;
+    }
+    figcaption{
+      margin-top: 10px;
+      margin-bottom: auto;
+    }
+
+    #ProjectDiba{
+   margin-top: 370px;
+    }
+}
+
+/* Crdzzz style */
+
+
+ .wrapper {
+ padding-top: 120px;
+ padding-bottom: 20px;
+ margin-bottom: auto;
+ }
+ .card-img-top {
+ box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+ }
+ .card-body{
+     text-align: center;
+     box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+ }
+ .card-body h6 {
+ font-size: 14px;
+ text-transform: uppercase;
+ color: deeppink;
+ }
+ .card-title {
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 24px;
+ }
+ 
+ .socials a {
+ width: 40px;
+ height: 40px;
+ display: inline-block;
+ border-radius: 50%;
+ margin: 0 5px;
+ }
+ .socials a i {
+ color: #fff;
+ padding: 12px 0;
+ }    
+ 
+ .socials a:nth-child(1) {
+ background: black;
+ }.socials a:nth-child(2) {
+ background: black;
+ }.socials a:nth-child(3) {
+ background: #007bb5;
+ }.socials a:nth-child(4) {
+ background: #ea4c89;
+ }
+ 
+ @media (max-width: 800px){
+     .mx-30{
+         margin-bottom: 30px;
+     }
+ }
+
+ 
+ 
+
+ /* REsume section and Button style  is RESUME SECTION */
+
+ #AboutSection{
+height: 60vh;
+
+ }
+ button{
+   margin: 5px;
+ }
+
+ #contactsection{
+   background-color: #e76f51;
+ }
